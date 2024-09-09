@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.form-container {
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    padding: 5px;
+    margin: 5px;
+    width: 20vw;
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px 16px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(120, 120, 216);
+}
+
+.button:hover {
+    background-color: rgb(89, 89, 197);
+}
+
+.investment-list{
+    width: 90vw;
+    margin: 10px auto;
+    overflow-x: auto;
+}
+
+.investment-list h2{
+    margin: 10px;
+}
